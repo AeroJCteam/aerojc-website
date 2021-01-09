@@ -28,10 +28,13 @@ hr.light {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  background-color: #22A9E0;
+
 }
 
 .btn {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
 }
 
 .page-section {
@@ -48,7 +51,7 @@ hr.light {
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #399cbd;
+  color: #22A9E0;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -60,11 +63,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #399cbd;
+  color: #22A9E0;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #399cbd !important;
+  color: #22A9E0 !important;
 }
 
 @media (min-width: 992px) {
@@ -91,7 +94,7 @@ hr.light {
   }
 
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #399cbd;
+    color: #22A9E0;
   }
 
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
@@ -99,7 +102,7 @@ hr.light {
   }
 
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #399cbd;
+    color: #22A9E0;
   }
 }
 
@@ -156,7 +159,7 @@ header.masthead h1 {
 .typewriter h1 {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid blue;
+  border-right: .15em solid #22A9E0;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
@@ -187,7 +190,7 @@ header.masthead h1 {
   }
 
   50% {
-    border-color: blue;
+    border-color: #22A9E0;
   }
 }
 
