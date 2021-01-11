@@ -145,3 +145,7 @@
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: #45abc4 !important;
 }
+
+.table-container .nav-link {
+  color: #45abc4 !important;
+}
