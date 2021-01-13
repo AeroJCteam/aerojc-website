@@ -110,6 +110,10 @@
   padding: 0;
 }
 
+.table-container .nav-link.active {
+  color: #ffffff !important;
+}
+
 @media only screen and (min-width: 470px) {
   .table-container th, .table-container td {
     padding: 1rem;
