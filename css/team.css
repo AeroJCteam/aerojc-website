@@ -71,7 +71,6 @@
 .team-boxed .item .title {
   text-transform: uppercase;
   font-weight: bold;
-  color: #d0d0d0;
   letter-spacing: 2px;
   font-size: 13px;
 }
@@ -83,7 +82,6 @@
 }
 
 .team-boxed .item img {
-  max-width: 160px;
   max-height: 160px;
 }
 
