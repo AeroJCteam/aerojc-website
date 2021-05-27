@@ -250,6 +250,7 @@ header.masthead h1 {
   padding: 16px;
   margin: 16px 0;
   max-width: 550px;
+  min-height: 230px;
 }
 
 .testimonial::after {
@@ -262,11 +263,16 @@ header.masthead h1 {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+  max-height: 100px;
 }
 
 .testimonial span {
   font-size: 20px;
   margin-right: 15px;
+}
+
+.testimonial p{
+  text-align: justify;
 }
 
 .carousel-control-prev-icon {
