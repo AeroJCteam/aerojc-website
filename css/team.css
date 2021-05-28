@@ -154,3 +154,71 @@
 .table-container .nav-link {
   color: #45abc4 !important;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #22A9E0 !important;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.testimonial {
+  border: 2px solid #22A9E0;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 30px 60px 0 60px;
+  margin: 16px 0;
+  max-width: 550px;
+  min-height: 230px;
+}
+
+.testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testimonial img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  max-height: 100px;
+}
+
+.testimonial span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.testimonial p{
+  text-align: justify;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+@media (max-width: 500px) {
+  .testimonial {
+    text-align: center;
+  }
+
+  .testimonial img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
