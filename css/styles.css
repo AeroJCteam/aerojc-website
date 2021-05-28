@@ -64,7 +64,7 @@ hr.light {
   color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.75rem 0;
 }
 
@@ -199,6 +199,24 @@ header.masthead h1 {
   }
 }
 
+.logo-container {
+  width: 85px;
+  display: -webkit-inline-flex;
+}
+img.aerojc-logo {
+  height: 80px;
+  width: auto;
+  margin-right: 20px;
+
+}
+
+img.jss-logo {
+  height: 80px;
+  width: auto;
+  margin: 10px;
+
+}
+
 .sponsors img {
   width: 300px;
   display: inline;
@@ -247,7 +265,7 @@ header.masthead h1 {
   border: 2px solid #22A9E0;
   background-color: #ffffff;
   border-radius: 5px;
-  padding: 16px;
+  padding: 30px 60px 0 60px;
   margin: 16px 0;
   max-width: 550px;
   min-height: 230px;
