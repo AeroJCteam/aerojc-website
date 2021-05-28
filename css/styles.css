@@ -219,7 +219,11 @@ img.jss-logo {
 
 .sponsors img {
   width: 300px;
-  display: inline;
+  height: 200px;
+  display: inline-block;
+  background-color: #22A9E0;
+  margin-right: 5px;
+  border-radius: 2px;
 }
 
 #portfolio {
