@@ -1,10 +1,8 @@
 .achievements-parallax {
   /* The image used */
   background-image: url("../assets/img/bg-masthead.jpg");
-
   /* Set a specific height */
   min-height: 50vh;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -12,17 +10,17 @@
   background-size: cover;
 }
 
-.achievements-header{
-  padding-top:10rem;
+.achievements-header {
+  padding-top: 10rem;
 }
 
-.achievements img{
-  width: 50rem;
-  height: 25rem;
-  display: block;
+.achievements img {
+  width: 20rem;
+  display: inline !important;
   margin-left: auto;
   margin-right: auto;
 }
+
 /*
 @media only screen and (min-width: 768px) {
   .center {
@@ -39,27 +37,29 @@
 }
 */
 @media only screen and (max-width: 768px) {
-  .image-div{
-    padding-left:0;
-    padding-right:0;
+  .image-div {
+    padding-left: 0;
+    padding-right: 0;
   }
-  .achievements img{
+
+  .achievements img {
     width: 34rem;
     height: 18rem;
-    margin-left:0;
-    margin-right:0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media only screen and (max-width: 34rem) {
-  .image-div{
-    padding-left:0;
-    padding-right:0;
+  .image-div {
+    padding-left: 0;
+    padding-right: 0;
   }
-  .achievements img{
+
+  .achievements img {
     width: 100vw;
     height: 18rem;
-    margin-left:0;
-    margin-right:0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
